@@ -136,3 +136,8 @@
         padding: 2%;
         background-color: #3d88cd;
       }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
