@@ -17,16 +17,16 @@ class CustomHeader extends HTMLElement {
             <link rel="stylesheet" href="styles.css">
             <div class="section" id="header">
                 <div id="name-header">
-                <img src="nametag_full.gif" id="name-art"></img>
+                <img src="site-images/nametag_full.gif" id="name-art"></img>
                 </div>
             </div>
             
             <div id="header-menu" class="section">
                 <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="animation.html">animation</a></li>
-                <li><a href="backgrounds.html">backgrounds</a></li>
-                <li><a href="blog.html">blog</a></li>
+                <li id="home-button"><img src="site-images/flower-btn1.png" class="header-img-btn"><a href="index.html" class="header-link">home</a></img></li>
+                <li id="anim-button"><img src="site-images/flower-btn2.png" class="header-img-btn"><a href="animation.html" class="header-link">animation</a></img></li>
+                <li id="bg-button"><img src="site-images/flower-btn3.png" class="header-img-btn"><a href="backgrounds.html" class="header-link">backgrounds</a></img></li>
+                <li id="blog-button"><img src="site-images/flower-btn4.png" class="header-img-btn"><a href="blog.html" class="header-link">blog</a></img></li>
                 </ul> 
             </div>
          `
