@@ -21,13 +21,34 @@ class CustomHeader extends HTMLElement {
                 </div>
             </div>
             
-            <div id="header-menu" class="section">
-                <ul>
-                <li id="home-button"><img src="site-images/flower-btn1.png" class="header-img-btn"><a href="index.html" class="header-link">home</a></img></li>
-                <li id="anim-button"><img src="site-images/flower-btn2.png" class="header-img-btn"><a href="animation.html" class="header-link">animation</a></img></li>
-                <li id="bg-button"><img src="site-images/flower-btn3.png" class="header-img-btn"><a href="backgrounds.html" class="header-link">backgrounds</a></img></li>
-                <li id="blog-button"><img src="site-images/flower-btn4.png" class="header-img-btn"><a href="blog.html" class="header-link">blog</a></img></li>
-                </ul> 
+            <div class="section">
+                <ul id="header-menu">
+                    <li>
+                        <a href="index.html">
+                            <img src="site-images/flower-btn1.png" class="header-img-btn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="animation.html">
+                            <img src="site-images/flower-btn2.png" class="header-img-btn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="backgrounds.html">
+                            <img src="site-images/flower-btn3.png" class="header-img-btn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            <img src="site-images/flower-btn4.png" class="header-img-btn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#.html">
+                            <img src="site-images/flower-btn5.png" class="header-img-btn">
+                        </a>
+                    </li>
+                </ul>
             </div>
          `
     }

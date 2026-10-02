@@ -46,7 +46,6 @@
       
       #header-menu {
         display: flex;
-        justify-content: center;
         font-size: 1em;
         font-weight: bold;
       }
@@ -79,12 +78,8 @@
       .header-img-btn {
         width: 100px;
         height: auto;
-        position: relative
-      }
-
-      .header-link {
-        position: absolute;
-        text-align: center;
+        position: relative;
+        cursor: pointer;
       }
       
       a {
